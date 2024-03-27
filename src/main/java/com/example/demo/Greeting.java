@@ -10,7 +10,7 @@ public class Greeting {
     public Greeting(long id, String content, string password) {
         this.id = id;
         this.content = content;
-        this.password = password
+        this.password = password;
     }
 
     public long getId() {
