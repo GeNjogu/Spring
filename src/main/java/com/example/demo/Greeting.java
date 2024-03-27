@@ -21,7 +21,5 @@ public class Greeting {
         return content;
     }
 
-    #testing
-    password =acbde
     
 }
