@@ -21,3 +21,11 @@ jobs:
         scan-ref: '.'
         vuln-type: 'os,library'
         severity: 'CRITICAL,HIGH'
+        output: 'trivy-results.json'
+
+    - name: update report
+      uses: actions/upload-artifact@v2
+        with:
+          name: trivy-report
+          path: trivy-results.json
+    
