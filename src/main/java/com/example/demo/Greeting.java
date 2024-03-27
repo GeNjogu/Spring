@@ -4,10 +4,13 @@ public class Greeting {
 
     private final long id;
     private final String content;
+    private final string username;
+    private final string password;
 
-    public Greeting(long id, String content) {
+    public Greeting(long id, String content, string password) {
         this.id = id;
         this.content = content;
+        this.password = password
     }
 
     public long getId() {
@@ -17,4 +20,8 @@ public class Greeting {
     public String getContent() {
         return content;
     }
+
+    #testing
+    password =acbde
+    
 }
