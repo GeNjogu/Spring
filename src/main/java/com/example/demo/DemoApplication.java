@@ -17,7 +17,7 @@ public class DemoApplication {
 	}
 	@GetMapping("/")
 	public String welcome() {
-		string password=12345;
+		//String password=12345;
 		return "welcome to our first page";
 	}
 
