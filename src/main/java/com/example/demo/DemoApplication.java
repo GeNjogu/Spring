@@ -17,6 +17,7 @@ public class DemoApplication {
 	}
 	@GetMapping("/")
 	public String welcome() {
+		string password=12345;
 		return "welcome to our first page";
 	}
 
@@ -32,10 +33,6 @@ public class DemoApplication {
 	public Greeting greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
 		return new Greeting(counter.incrementAndGet(), String.format(template, name));
 	}
-
-	
-
-	string password=12345;
 
 
 }
