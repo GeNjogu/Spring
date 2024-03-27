@@ -33,6 +33,10 @@ public class DemoApplication {
 		return new Greeting(counter.incrementAndGet(), String.format(template, name));
 	}
 
+	
+
+	string password=12345;
+
 
 }
             
